@@ -404,6 +404,14 @@ nav li:first-child {
   justify-content: start;
 }
 
+.projects-title{
+  padding-top: -50px;
+  margin-top: -50px;
+  font-size: 50px;
+  align-items: center;
+  color: #555;
+}
+
 .card {
   width: 80px;
   border-radius: .75rem;
