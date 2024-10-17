@@ -43,19 +43,22 @@
           Sibusiso Zitha
         </h1>
       </div>
+      <div>
+        <img src="./images/personal logo/20231216_172213.jpg" class="left" alt="My picture">
+      </div>
       <div class="right" id="about">
-        <h1>I am an aspiring</h1>
+        <h1>I am a Pioneering</h1>
         <h1 class="bottom-h1">
           Cr<span class="delay-1">eati</span>ve
           <span class="delay-2">Desi</span>gn<span class="delay-3">er</span>
         </h1>
         <p>
-          Highly motivated, organized, resourceful, detail oriented and a committed individual with a strong academic
+          Highly motivated, organized, resourceful, detail oriented and a committed Software Developer with a strong academic
           background and diverse work experience. Outstanding design and problem-solving skills with the ability to meet
           rigorous performance standards and demanding schedules.
         </p>
-        <a href="https://drive.google.com/file/d/1uqnr_MBGnj9HcbDvZv1ath-HKKxSw_u8/view?usp=drive_link"><button
-            class="cv-download-btn">Download CV</button></a>
+        <a href="https://drive.google.com/file/d/1uqnr_MBGnj9HcbDvZv1ath-HKKxSw_u8/view?usp=drive_link"
+          target="_blank"><button class="cv-download-btn">Download CV</button></a>
       </div>
     </div>
 
@@ -113,8 +116,8 @@
         </div>
       </div>
     </div>
-    <div class="projects-wrapper">
-      <div class="projects" id="projects">
+    <div class="projects-wrapper" id="projects">
+      <div class="projects">
         <div class="container">
           <input type="radio" name="slide" id="c1" checked>
           <label for="c1" class="card" style="background-image: url(./images/languages/techy.avif);">
@@ -162,8 +165,8 @@
       </div>
     </div>
     <!-- <div class="contact-box"> -->
-    <section id="section-wrapper">
-      <div class="box-wrapper" id="contact-me">
+    <section id="section-wrapper" id="contact-me">
+      <div class="box-wrapper">
         <div class="info-wrap">
           <h2 class="info-title">Contact Information</h2>
           <h3 class="info-sub-title">Fill up the form and I will back to you within 24 hours</h3>
@@ -181,33 +184,39 @@
           </ul>
         </div>
 
-        <div class="form-wrap">
-          <form action="#" method="POST">
-            <h2 class="form-title">Send me a message</h2>
+        <div class="form-wrap" id="contact-me">
+          <h2 class="form-title">Send me a message</h2>
+          <form action="https://api.web3forms.com/submit" class="contact_input" method="POST">
+
+            <input type="hidden" name="access_key" value="1a5e888b-0309-483a-9f26-20d028a94334">
+            
             <div class="form-fields">
               <div class="form-group">
-                <input type="text" class="fname" placeholder="First Name" required>
+                <label for="fname"></label>
+                <input type="text" id="fname" name="fname" placeholder="First Name" class="contact_input" required>
+              </div>
+              <label for="lname"></label>
+              <div class="form-group">
+                <input type="text" id="lname" name="lname" placeholder="Last Name" class="contact_input" required>
               </div>
               <div class="form-group">
-                <input type="text" class="lname" placeholder="Last Name" required>
+                <label for="email"></label>
+                <input type="email" id="email" name="email"  placeholder="Mail" class="contact_input" required>
               </div>
               <div class="form-group">
-                <input type="email" class="email" placeholder="Mail" required>
-              </div>
-              <div class="form-group">
-                <textarea name="message" id="" placeholder="Write your message" required></textarea>
+                <label for="message"></label>
+                <textarea name="message" id="message" placeholder="Write your message" class="contact_input" required></textarea>
               </div>
             </div>
             <input type="submit" value="Send Message" class="submit-button">
+            <p id="success-message" style="display: none;">Message has been successfully sent!</p>
           </form>
         </div>
       </div>
     </section>
+    <div class="footer">
+      <p>Copyright © 2024 Zitha Zolwethu. All Rights Reserved</p>
+    </div>
 </body>
-<footer>
-  <div class="footer-logo">
-    <p>Copyright 2024 Zitha Zolwethu. All Rights Reserved</p>
-  </div>
-</footer>
 
 </html>
