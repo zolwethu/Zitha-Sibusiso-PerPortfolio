@@ -18,20 +18,16 @@
             <path
               d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z" />
           </svg></a></li>
-      <li><a href="#">About Me</a></li>
-      <li><a href="#">Education</a></li>
-      <li><a href="#">Languages</a></li>
-      <li><a href="#">Projects</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#about">About Me</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact-me">Contact</a></li>
     </ul>
     <ul>
-      <li class="hideOnMobile"><a href="index.html"><img src="./images/personal logo/Zolwethu personal brand.png"
+      <li class="hideOnMobile"><a href="#menu"><img src="./images/personal logo/Zolwethu personal brand.png"
             alt="Zolwethu Personal Logo"></a></li>
-      <li class="hideOnMobile"><a href="#">About Me</a></li>
-      <li class="hideOnMobile"><a href="#">Education</a></li>
-      <li class="hideOnMobile"><a href="#">Languages</a></li>
-      <li class="hideOnMobile"><a href="#">Projects</a></li>
-      <li class="hideOnMobile"><a href="#">Contact</a></li>
+      <li class="hideOnMobile"><a href="#about">About Me</a></li>
+      <li class="hideOnMobile"><a href="#projects">Projects</a></li>
+      <li class="hideOnMobile"><a href="#contact-me">Contact</a></li>
       <li class="menu-button" onclick=showSidebar()><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26"
             viewBox="0 96 960 960" width="26">
             <path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z" />
@@ -41,7 +37,7 @@
   </nav>
   <script src="./javascript/contr.js"></script>
   <div class="content-wrap">
-    <div class="header">
+    <div class="header" id="home">
       <div class="neon">
         <h1>
           Sibusiso Zitha
@@ -58,50 +54,56 @@
           background and diverse work experience. Outstanding design and problem-solving skills with the ability to meet
           rigorous performance standards and demanding schedules.
         </p>
-        <button class="cv-download-btn">Download CV</button>
+        <a href="https://drive.google.com/file/d/1uqnr_MBGnj9HcbDvZv1ath-HKKxSw_u8/view?usp=drive_link"><button
+            class="cv-download-btn">Download CV</button></a>
       </div>
     </div>
 
     <div class="about-me">
-      <div class="about-image">
-        <img src="./images/megam.jpg" alt="about me image">
+      <div>
+        <img src="./images/personal logo/img.jpg" class="about-image" alt="about me image">
       </div>
       <div class="about-text">
         <h1>About <span>Me</span></h1>
-        <h3>Hello I'm Sizolwethu Zitha</h3>
-        <p>A supernova (pl.: supernovae or supernovas) is a powerful and luminous explosion of a star. A supernova
-          occurs during the last evolutionary stages of a massive
-          star, or when a white dwarf is triggered into runaway nuclear fusion.
-          The original object, called the progenitor, either collapses to a neutron star or black hole, or is completely
-          destroyed to form a diffuse nebula. <br> <br>The peak optical luminosity of a supernova can be
-          comparable to that of an entire galaxy before fading over several weeks or months
-          when a white dwarf is triggered into runaway nuclear fusion. The original object,
-          called the progenitor, either collapses to a neutron star or black hole, or is completely
-          destroyed to form a diffuse nebula.
+        <h3>Hello I'm Zolwethu</h3>
+        <p>I remember the first time I Googled how to print "Hello, World!" in Python. It was a small step that sparked
+          a huge passion for coding and innovation. Now, as I am a Junior Software Developer position at Capaciti, it
+          feels like everything has come full circle. The commitment to solving complex problems through technology not
+          only excites me but also aligns with my personal and professional aspirations.
+          Throughout my journey as a developer, I've honed my skills in Java, Python, and C++, while also gaining
+          valuable experience in Agile methodologies and collaborative problem-solving
+          <br>What excites me about the IT industry is the chance to contribute to projects that have a far-reaching
+          impact. I am particularly excited about the potential to work on open-source projects that are used by
+          developers around the world.
+          I am eager to bring my coding skills, my drive for innovation, and my passion for creating impactful software
+          to the world.
         </p>
         <div class="socials">
-          <a data-social="Github" style="--accent-color: rgb(202, 0, 0);" href="">
+          <a data-social="Github" style="--accent-color: rgb(202, 0, 0);" href="https://github.com/zolwethu"
+            target="_blank">
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>GitHub</title>
               <path
                 d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
             </svg>
           </a>
-          <a data-social="Facebook" style="--accent-color: rgb(21, 83, 255);" href="">
-            <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <a data-social="Facebook" style="--accent-color: rgb(21, 83, 255);" href="" target="_blank">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
               <title>Facebook</title>
               <path
-                d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12" />
+                d="M 25 3 C 12.861562 3 3 12.861562 3 25 C 3 36.019135 11.127533 45.138355 21.712891 46.728516 L 22.861328 46.902344 L 22.861328 29.566406 L 17.664062 29.566406 L 17.664062 26.046875 L 22.861328 26.046875 L 22.861328 21.373047 C 22.861328 18.494965 23.551973 16.599417 24.695312 15.410156 C 25.838652 14.220896 27.528004 13.621094 29.878906 13.621094 C 31.758714 13.621094 32.490022 13.734993 33.185547 13.820312 L 33.185547 16.701172 L 30.738281 16.701172 C 29.349697 16.701172 28.210449 17.475903 27.619141 18.507812 C 27.027832 19.539724 26.84375 20.771816 26.84375 22.027344 L 26.84375 26.044922 L 32.966797 26.044922 L 32.421875 29.564453 L 26.84375 29.564453 L 26.84375 46.929688 L 27.978516 46.775391 C 38.71434 45.319366 47 36.126845 47 25 C 47 12.861562 37.138438 3 25 3 z M 25 5 C 36.057562 5 45 13.942438 45 25 C 45 34.729791 38.035799 42.731796 28.84375 44.533203 L 28.84375 31.564453 L 34.136719 31.564453 L 35.298828 24.044922 L 28.84375 24.044922 L 28.84375 22.027344 C 28.84375 20.989871 29.033574 20.060293 29.353516 19.501953 C 29.673457 18.943614 29.981865 18.701172 30.738281 18.701172 L 35.185547 18.701172 L 35.185547 12.009766 L 34.318359 11.892578 C 33.718567 11.811418 32.349197 11.621094 29.878906 11.621094 C 27.175808 11.621094 24.855567 12.357448 23.253906 14.023438 C 21.652246 15.689426 20.861328 18.170128 20.861328 21.373047 L 20.861328 24.046875 L 15.664062 24.046875 L 15.664062 31.566406 L 20.861328 31.566406 L 20.861328 44.470703 C 11.816995 42.554813 5 34.624447 5 25 C 5 13.942438 13.942438 5 25 5 z">
+              </path>
             </svg>
           </a>
-          <a data-social="WhatsApp" style="--accent-color: rgb(42, 212, 0);" href="">
+          <a data-social="WhatsApp" style="--accent-color: rgb(42, 212, 0);" href="" target="_blank">
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>WhatsApp</title>
               <path
                 d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
             </svg>
           </a>
-          <a data-social="GMail" style="--accent-color: rgb(221, 236, 3);" href="">
+          <a data-social="GMail" style="--accent-color: rgb(221, 236, 3);" href="mailto:zithasbu621gmail.com"
+            target="_blank">
             <svg role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <title>Gmail</title>
               <path
@@ -112,17 +114,15 @@
       </div>
     </div>
     <div class="projects-wrapper">
-      <div class="projects">
+      <div class="projects" id="projects">
         <div class="container">
           <input type="radio" name="slide" id="c1" checked>
           <label for="c1" class="card" style="background-image: url(./images/languages/techy.avif);">
             <div class="row">
               <div class="icon">1</div>
               <div class="description">
-                <h4>Winter</h4>
-                <p>Much more to offer than summer, so many sleepoovers -
-                  creative activities
-                </p>
+                <h4>Deep Learning</h4>
+                <p>Object Detection With Neural Networks</p>
               </div>
             </div>
           </label>
@@ -131,9 +131,8 @@
             <div class="row">
               <div class="icon">2</div>
               <div class="description">
-                <h4>Online employee induction</h4>
-                <p>Conduct orientations online <br> during the times of covid-19 lockdown
-                </p>
+                <h4>Online Employee Induction</h4>
+                <p>Conduct orientations online</p>
               </div>
             </div>
           </label>
@@ -143,8 +142,7 @@
               <div class="icon">3</div>
               <div class="description">
                 <h4>Globalization</h4>
-                <p>Helping people all around the world
-                </p>
+                <p>Helping people all around the world - Train a Language Detection AI
               </div>
             </div>
           </label>
@@ -155,7 +153,7 @@
               <div class="icon">4</div>
               <div class="description">
                 <h4>Programming Languages</h4>
-                <p>These are the languages that I dabble in: <br> HTML & CSS, JAVA, JAVASCRIPT<br> PYTHON
+                <p>HTML & CSS, JAVA, JAVASCRIPT<br> PYTHON, C
                 </p>
               </div>
             </div>
@@ -164,59 +162,52 @@
       </div>
     </div>
     <!-- <div class="contact-box"> -->
-      <section id="section-wrapper">
-        <div class="box-wrapper">
-          <div class="info-wrap">
-            <h2 class="info-title">Contact Information</h2>
-            <h3 class="info-sub-title">Fill up the form and I will back to you within 24 hours</h3>
-            <ul class="info-details">
-              <li>
-                <i class="fas fa-phone-alt"></i>
-                <span>Phone:</span> <a href="tel:+27 76 318 5758">+27 76 318 5758</a>
-              </li>
-              <li>
-                <i class="fas fa-paper-plane"></i>
-                <span>Email:</span> <a href="zithasbu621@gmail.com">zithasbu621@gmail.com</a>
-              </li>
-              <li>
-                <i class="fas fa-globe"></i>
-                <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/sibusiso-zitha-bab3681a3/">Sibusiso
-                  Zitha</a>
-              </li>
-            </ul>
-            <!-- <ul class="social-icons">
-                    <li><a href="#"><i class="fab fa-facebook"></i></a></li>
-                    <li><a href="#"><i class="fab fa-twitter"></i></a></li>
-                    <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
-                </ul>
-                -->
-          </div>
-          
-          <div class="form-wrap">
-            <form action="#" method="POST">
-              <h2 class="form-title">Send me a message</h2>
-              <div class="form-fields">
-                <div class="form-group">
-                  <input type="text" class="fname" placeholder="First Name">
-                </div>
-                <div class="form-group">
-                  <input type="text" class="lname" placeholder="Last Name">
-                </div>
-                <div class="form-group">
-                  <input type="email" class="email" placeholder="Mail">
-                </div>
-                <div class="form-group">
-                  <textarea name="message" id="" placeholder="Write your message"></textarea>
-                </div>
-              </div>
-              <input type="submit" value="Send Message" class="submit-button">
-            </form>
-          </div>
+    <section id="section-wrapper">
+      <div class="box-wrapper" id="contact-me">
+        <div class="info-wrap">
+          <h2 class="info-title">Contact Information</h2>
+          <h3 class="info-sub-title">Fill up the form and I will back to you within 24 hours</h3>
+          <ul class="info-details">
+            <li>
+              <span>Phone:</span> <a href="tel:+27 76 318 5758">+27 76 318 5758</a>
+            </li>
+            <li>
+              <span>Email:</span> <a href="zithasbu621@gmail.com">zithasbu621@gmail.com</a>
+            </li>
+            <li>
+              <span>LinkedIn:</span> <a href="https://www.linkedin.com/in/sibusiso-zitha-bab3681a3/">Sibusiso
+                Zitha</a>
+            </li>
+          </ul>
         </div>
-      </section>
-    <!-- </div> -->
-  </div>
+
+        <div class="form-wrap">
+          <form action="#" method="POST">
+            <h2 class="form-title">Send me a message</h2>
+            <div class="form-fields">
+              <div class="form-group">
+                <input type="text" class="fname" placeholder="First Name" required>
+              </div>
+              <div class="form-group">
+                <input type="text" class="lname" placeholder="Last Name" required>
+              </div>
+              <div class="form-group">
+                <input type="email" class="email" placeholder="Mail" required>
+              </div>
+              <div class="form-group">
+                <textarea name="message" id="" placeholder="Write your message" required></textarea>
+              </div>
+            </div>
+            <input type="submit" value="Send Message" class="submit-button">
+          </form>
+        </div>
+      </div>
+    </section>
 </body>
-<footer></footer>
+<footer>
+  <div class="footer-logo">
+    <p>Copyright 2024 Zitha Zolwethu. All Rights Reserved</p>
+  </div>
+</footer>
 
 </html>
